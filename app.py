@@ -1,5 +1,7 @@
 from flask import Flask, render_template, request, jsonify
 from model import train_model, predict_new_data
+from werkzeug.utils import quote
+
 
 app = Flask(__name__)
 
