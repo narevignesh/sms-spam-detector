@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMS Spam Detector</title>
+    <!-- Favicon -->
+    <link rel="icon" href="https://images.sftcdn.net/images/t_app-icon-m/p/e1acfcb4-9b44-4484-8fc7-d8f5fcd7f612/2939023023/sms-spam-filter-logo" type="image/x-icon">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
+        <h1 class="text-2xl font-bold mb-4 text-center">SMS Spam Detector</h1>
+        
+        <h2 class="text-xl font-semibold mb-2">Predict Spam</h2>
+        <form method="POST" action="/" class="space-y-4">
+            <textarea name="sms_text" placeholder="Enter SMS text here" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+            <button type="submit" class="w-full py-3 bg-blue-500 text-white font-semibold rounded-lg hover:bg-blue-600 transition duration-300">Predict</button>
+        </form>
+
+        {% if prediction is not none %}
+            <div class="mt-6 p-4 bg-gray-100 rounded-lg">
+                <h3 class="text-lg font-semibold mb-2">Prediction Result:</h3>
+                <p class="text-gray-700">Prediction: {{ prediction }}</p>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
