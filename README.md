@@ -37,7 +37,7 @@ pip install flask scikit-learn pandas
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/sms-spam-detector.git
+    git clone https://github.com/narevignesh/sms-spam-detector.git
     cd sms-spam-detector
     ```
 
