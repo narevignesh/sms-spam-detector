@@ -101,10 +101,6 @@ Prediction: Spam
 Prediction: Not Spam
 ```
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 - The **SMSSpamCollection** dataset is used for training the model.
