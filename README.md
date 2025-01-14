@@ -1,7 +1,9 @@
-Here's a GitHub `README.md` description for the machine learning model that powers your SMS Spam Detector:
+Here’s the updated `README.md` with the deployed link at the top:
 
 ```markdown
 # SMS Spam Detection Machine Learning Model
+
+You can try the live web application here: [SMS Spam Detector](https://sms-spam-detector-tu4o.onrender.com)
 
 This project leverages machine learning to classify SMS messages as "Spam" or "Not Spam" (ham) using a Naive Bayes classifier. The model is trained on the **SMSSpamCollection** dataset, which contains labeled examples of spam and non-spam SMS messages.
 
@@ -62,7 +64,6 @@ The model is trained using the **SMSSpamCollection** dataset, which contains lab
 
 - The **CountVectorizer** is used to convert the SMS text into a matrix of token counts. It converts each SMS message into a "bag-of-words" representation.
 
-
 ### 3. Model Training
 
 - The dataset is split into training and test sets using `train_test_split` from `scikit-learn`.
@@ -107,13 +108,4 @@ Prediction: Not Spam
 - The app is built using **Flask** for the web interface, and **scikit-learn** for machine learning.
 ```
 
-### Key Sections:
-
-- **Model Overview**: Describes the machine learning model and the tools used (Naive Bayes, CountVectorizer).
-- **Features**: Summarizes the functionality of the app.
-- **Installation**: Provides steps to install dependencies and set up the project.
-- **How the Model Works**: Details the model training process, including data preprocessing, training, and evaluation.
-- **Example Usage**: Provides code examples for training the model and making predictions.
-- **License and Acknowledgments**: Credits and licensing information.
-
-This README gives a clear and structured explanation of your SMS Spam Detection machine learning model, making it easy for others to understand and use the project.
+Now the deployed link is placed at the top for quick access.
