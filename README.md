@@ -61,8 +61,7 @@ The model is trained using the **SMSSpamCollection** dataset, which contains lab
 ### 2. Data Preprocessing
 
 - The **CountVectorizer** is used to convert the SMS text into a matrix of token counts. It converts each SMS message into a "bag-of-words" representation.
-  
-- The labels (`ham` and `spam`) are mapped to numeric values: `ham` is represented as `0`, and `spam` is represented as `1`.
+
 
 ### 3. Model Training
 
