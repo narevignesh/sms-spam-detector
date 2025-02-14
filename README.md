@@ -52,7 +52,7 @@ pip install flask scikit-learn pandas
     python app.py
     ```
 
-4. Access the web app at `http://127.0.0.1:5000/`.
+4. Access the web app at `https://sms-spam-detector-tu4o.onrender.com`.
 
 ## How the Model Works
 
@@ -108,4 +108,4 @@ Prediction: Not Spam
 - The app is built using **Flask** for the web interface, and **scikit-learn** for machine learning.
 ```
 
-Now the deployed link is placed at the top for quick access.
+https://sms-spam-detector-tu4o.onrender.com
