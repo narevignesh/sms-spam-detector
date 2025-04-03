@@ -1,6 +1,6 @@
-Here’s the updated `README.md` with the deployed link at the top:
 
-```markdown
+
+
 # SMS Spam Detection Machine Learning Model
 
 You can try the live web application here: [SMS Spam Detector](https://sms-spam-detector-tu4o.onrender.com)
